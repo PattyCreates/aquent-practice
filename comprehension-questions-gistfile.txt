@@ -1,11 +1,20 @@
 In order to answer the below, you should be able to talk in clear terms accurately about the below and be able to write and run either in a browser or in a node terminal all the below. 
 
 - What is a function and how do you define it?
+  + A function is a block of code that executes a task. You define functions by setting it up as seen below. So, define it with the word function, then list a name, then paranthesis (to potentially put parameters into it) and then brackets to enclose that that function accomplishes.
+  function nameOfFunctionCamelCase () {
+  	code to be executed;
+  }
 	
 - How do you define and then at a later point call a function?
-	+	You define a function by giving it some instructional information between the brackets. You later call it by simply writing the function();
+	+	You define a function by giving it some instructional information between the brackets. You later call it by simply writing the nameOfFunction();
 
 - What are arguments?
+	+ An argument is a value you pass through a parameter. So:
+	+ function sayHarro(day)(
+			console.log(day);
+		);
+	  sayHarro("Tuesday");   << "Tuesday" is the argument to day parameter.
 
 - What are some basic differences between string, objects and arrays?
 	+	An array is a container of multiple values of data.
@@ -16,7 +25,7 @@ In order to answer the below, you should be able to talk in clear terms accurate
 	+ A return value is what the browser responds with after a function is called.
 
 - What is a key and what is a value in terms of a key value pair?
-	+ A key is a property of an object. A key value pair is a property value.
+	+ A key is a property of an object. A key value pair is a property value. It is similar in nature to the concept of parameters and arguments, but still have a different classifaction because key value pairs are Object Literals, so they're constant declarations. On the other hand, parameters define static objects and can vary based off the initiated arguments.
 
 - What does index position in an array mean?
 	+ The index position in an array is the order of where the data values lay. So for example in the array below, the numbers in these strings are in respect to their indexes:
