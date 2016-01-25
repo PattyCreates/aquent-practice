@@ -1,0 +1,19 @@
+In order to answer the below, you should be able to talk in clear terms accurately about the below and
+be able to write and run either in a browser or in a node terminal all the below. 
+
+- What is a function and how do you define it?
+	A function is a 
+- How do you define and then at a later point call a function?
+	You define a function by giving it some instructional information between the brackets. You later call it by simply writing the function();
+- What are arguments?
+
+- What are some basic differences between string, objects and arrays?
+	An array is a container of multiple values of data.
+	A string is text.
+
+- What is a return value?
+	A return value is what the browser responds with after a function is called.
+- What is a key and what is a value in terms of a key value pair?
+
+- What does index position in an array mean? 
+- What is a callback function?
