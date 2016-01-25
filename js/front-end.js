@@ -48,6 +48,12 @@ function sayHello (name, useAlert) {
 var items =["corgi",
 						"labrador",
 						"golden retreiver"];
+//Adding more values to the array
+items.push("pekingese",
+					 "golden doodle",
+					 "unicorn");
+//alphabetical order function call
+items.sort();
 // For loop structure: ( initiator; condition(times out function after the conditioner is spent); incrementer;)
 											// for(var i=0; i<10; 1++)
 function listItems() {
